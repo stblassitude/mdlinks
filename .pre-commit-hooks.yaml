@@ -1,0 +1,6 @@
+- id: mdlinks
+  name: Check cross-document links in markdown files
+  description: Check cross-document links in markdown files
+  entry: mdlinks
+  language: golang
+  stages: [pre-commit, pre-push, manual]
